@@ -1,0 +1,19 @@
+_myown_first:
+    pattern: /first
+    defaults:
+        _controller: AcmeDemoBundle:MyOwn:first
+
+_myown_second:
+    pattern: /second
+    defaults:
+        _controller: AcmeDemoBundle:MyOwn:second
+
+_myown_second_slug:
+    pattern: /second/{slug}
+    defaults:
+        _controller: AcmeDemoBundle:MyOwn:second
+
+_myown_third:
+    pattern: /third
+    defaults:
+        _controller: AcmeDemoBundle:MyOwn:third
